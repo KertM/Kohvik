@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kohvik
 {
-    class Jook
+    abstract class Jook
     {
         protected string Name;
         protected double Price;

@@ -8,5 +8,11 @@ namespace Kohvik
 {
     class Vine : Jook
     {
+        public Vine()
+        {
+            Name = "Vine";
+            Price = 42;
+
+        }
     }
 }

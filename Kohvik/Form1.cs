@@ -70,7 +70,17 @@ namespace Kohvik
 
         private void tere_Click(object sender, EventArgs e)
         {
-            Tab.SelectedTab = Kohvik;
+            Kohvik2.SelectedTab = Tab;
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

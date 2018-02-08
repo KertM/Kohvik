@@ -29,37 +29,39 @@
         private void InitializeComponent()
         {
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.Kohvik = new System.Windows.Forms.TabControl();
+            this.Kohvik2 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tere = new System.Windows.Forms.Button();
+            this.Tab = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ListBox = new System.Windows.Forms.ListBox();
+            this.Add = new System.Windows.Forms.Button();
+            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.Exit = new System.Windows.Forms.Button();
             this.Order = new System.Windows.Forms.Button();
             this.Total = new System.Windows.Forms.Label();
-            this.Tab = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            this.Add = new System.Windows.Forms.Button();
-            this.ListBox = new System.Windows.Forms.ListBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tere = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Kohvik.SuspendLayout();
+            this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Kohvik2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.Tab.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Kohvik
+            // Kohvik2
             // 
-            this.Kohvik.Controls.Add(this.tabPage1);
-            this.Kohvik.Controls.Add(this.Tab);
-            this.Kohvik.Location = new System.Drawing.Point(3, 12);
-            this.Kohvik.Name = "Kohvik";
-            this.Kohvik.SelectedIndex = 0;
-            this.Kohvik.Size = new System.Drawing.Size(873, 372);
-            this.Kohvik.TabIndex = 0;
+            this.Kohvik2.Controls.Add(this.tabPage1);
+            this.Kohvik2.Controls.Add(this.Tab);
+            this.Kohvik2.Location = new System.Drawing.Point(3, 12);
+            this.Kohvik2.Name = "Kohvik2";
+            this.Kohvik2.SelectedIndex = 0;
+            this.Kohvik2.Size = new System.Drawing.Size(873, 372);
+            this.Kohvik2.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -73,6 +75,123 @@
             this.tabPage1.Text = "Tere";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(408, 158);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(32, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Tere!";
+            // 
+            // tere
+            // 
+            this.tere.Location = new System.Drawing.Point(386, 188);
+            this.tere.Name = "tere";
+            this.tere.Size = new System.Drawing.Size(75, 38);
+            this.tere.TabIndex = 0;
+            this.tere.Text = "tere";
+            this.tere.UseVisualStyleBackColor = true;
+            this.tere.Click += new System.EventHandler(this.tere_Click);
+            // 
+            // Tab
+            // 
+            this.Tab.Controls.Add(this.label6);
+            this.Tab.Controls.Add(this.checkedListBox4);
+            this.Tab.Controls.Add(this.label4);
+            this.Tab.Controls.Add(this.ListBox);
+            this.Tab.Controls.Add(this.Add);
+            this.Tab.Controls.Add(this.checkedListBox3);
+            this.Tab.Controls.Add(this.label3);
+            this.Tab.Controls.Add(this.label2);
+            this.Tab.Controls.Add(this.checkedListBox2);
+            this.Tab.Controls.Add(this.checkedListBox1);
+            this.Tab.Controls.Add(this.label1);
+            this.Tab.Location = new System.Drawing.Point(4, 22);
+            this.Tab.Name = "Tab";
+            this.Tab.Padding = new System.Windows.Forms.Padding(3);
+            this.Tab.Size = new System.Drawing.Size(865, 346);
+            this.Tab.TabIndex = 1;
+            this.Tab.Text = "Kohvik";
+            this.Tab.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(507, 112);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Order";
+            // 
+            // ListBox
+            // 
+            this.ListBox.FormattingEnabled = true;
+            this.ListBox.Location = new System.Drawing.Point(510, 128);
+            this.ListBox.Name = "ListBox";
+            this.ListBox.Size = new System.Drawing.Size(349, 212);
+            this.ListBox.TabIndex = 9;
+            // 
+            // Add
+            // 
+            this.Add.Location = new System.Drawing.Point(422, 132);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(75, 23);
+            this.Add.TabIndex = 8;
+            this.Add.Text = "Add";
+            this.Add.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox3
+            // 
+            this.checkedListBox3.FormattingEnabled = true;
+            this.checkedListBox3.Location = new System.Drawing.Point(9, 132);
+            this.checkedListBox3.Name = "checkedListBox3";
+            this.checkedListBox3.Size = new System.Drawing.Size(407, 124);
+            this.checkedListBox3.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 116);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Red House Vine";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(142, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Teas";
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Location = new System.Drawing.Point(142, 19);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(156, 94);
+            this.checkedListBox2.TabIndex = 4;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(5, 19);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(131, 94);
+            this.checkedListBox1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Hot Drinks";
             // 
             // Exit
             // 
@@ -103,120 +222,24 @@
             this.Total.Text = "Total :";
             this.Total.Click += new System.EventHandler(this.Total_Click);
             // 
-            // Tab
+            // checkedListBox4
             // 
-            this.Tab.Controls.Add(this.label4);
-            this.Tab.Controls.Add(this.ListBox);
-            this.Tab.Controls.Add(this.Add);
-            this.Tab.Controls.Add(this.checkedListBox3);
-            this.Tab.Controls.Add(this.label3);
-            this.Tab.Controls.Add(this.label2);
-            this.Tab.Controls.Add(this.checkedListBox2);
-            this.Tab.Controls.Add(this.checkedListBox1);
-            this.Tab.Controls.Add(this.label1);
-            this.Tab.Location = new System.Drawing.Point(4, 22);
-            this.Tab.Name = "Tab";
-            this.Tab.Padding = new System.Windows.Forms.Padding(3);
-            this.Tab.Size = new System.Drawing.Size(865, 346);
-            this.Tab.TabIndex = 1;
-            this.Tab.Text = "Kohvik";
-            this.Tab.UseVisualStyleBackColor = true;
+            this.checkedListBox4.FormattingEnabled = true;
+            this.checkedListBox4.Location = new System.Drawing.Point(304, 19);
+            this.checkedListBox4.Name = "checkedListBox4";
+            this.checkedListBox4.Size = new System.Drawing.Size(156, 94);
+            this.checkedListBox4.TabIndex = 11;
+            this.checkedListBox4.SelectedIndexChanged += new System.EventHandler(this.checkedListBox4_SelectedIndexChanged);
             // 
-            // label1
+            // label6
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Hot Drinks";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(5, 19);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(131, 94);
-            this.checkedListBox1.TabIndex = 3;
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(142, 19);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(156, 94);
-            this.checkedListBox2.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(142, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Teas";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 13);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Red House Vine";
-            // 
-            // checkedListBox3
-            // 
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Location = new System.Drawing.Point(9, 132);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(407, 124);
-            this.checkedListBox3.TabIndex = 7;
-            // 
-            // Add
-            // 
-            this.Add.Location = new System.Drawing.Point(422, 132);
-            this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(75, 23);
-            this.Add.TabIndex = 8;
-            this.Add.Text = "Add";
-            this.Add.UseVisualStyleBackColor = true;
-            // 
-            // ListBox
-            // 
-            this.ListBox.FormattingEnabled = true;
-            this.ListBox.Location = new System.Drawing.Point(510, 128);
-            this.ListBox.Name = "ListBox";
-            this.ListBox.Size = new System.Drawing.Size(349, 212);
-            this.ListBox.TabIndex = 9;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(507, 112);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Order";
-            // 
-            // tere
-            // 
-            this.tere.Location = new System.Drawing.Point(386, 188);
-            this.tere.Name = "tere";
-            this.tere.Size = new System.Drawing.Size(75, 38);
-            this.tere.TabIndex = 0;
-            this.tere.Text = "tere";
-            this.tere.UseVisualStyleBackColor = true;
-            this.tere.Click += new System.EventHandler(this.tere_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(408, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(32, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Tere!";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(310, 3);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Food";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // KK
             // 
@@ -226,11 +249,11 @@
             this.Controls.Add(this.Total);
             this.Controls.Add(this.Order);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Kohvik);
+            this.Controls.Add(this.Kohvik2);
             this.Name = "KK";
             this.Text = "KK Kerdi Kohvik";
             this.Load += new System.EventHandler(this.KK_Load);
-            this.Kohvik.ResumeLayout(false);
+            this.Kohvik2.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.Tab.ResumeLayout(false);
@@ -242,7 +265,7 @@
 
         #endregion
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
-        private System.Windows.Forms.TabControl Kohvik;
+        private System.Windows.Forms.TabControl Kohvik2;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Button Order;
@@ -259,6 +282,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListBox ListBox;
         private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckedListBox checkedListBox4;
     }
 }
 

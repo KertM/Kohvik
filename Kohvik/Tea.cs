@@ -8,5 +8,10 @@ namespace Kohvik
 {
     class Tea : Jook
     {
+        public Tea()
+        {
+            Name = "Tea";
+            Price = 3;
+        }
     }
 }
